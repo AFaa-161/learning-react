@@ -1,6 +1,4 @@
-
-
-import './App.css'
+import "./App.css"
 import Title from "./Title.jsx"
 import Tabs from "./Tabs.jsx"
 import Msg from "./Msg.jsx"
@@ -11,6 +9,7 @@ function App() {
    <>
    <Msg username="Afaa" textColor="olive"/>
     <Title/>
+    <Counter/>
     <Tabs/>
    <Button/>
    </>
