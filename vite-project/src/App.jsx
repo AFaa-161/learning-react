@@ -8,10 +8,12 @@ import Like from "./like.jsx"
 import Ludo from "./Ludo.jsx"
 import Lottery from "./Lottery.jsx"
 import Ticket from "./Ticket.jsx"
+import Forms from "./form.jsx"
 function App() {
  
   return(
-    <Lottery n={3} winningSum={15}/>
+    
+    <Forms/>
   )
 }
 export default App
