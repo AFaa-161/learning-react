@@ -5,20 +5,13 @@ import Msg from "./Msg.jsx"
 import Button from "./Button.jsx"
 import  Counter from "./Counter.jsx"
 import Like from "./like.jsx"
-import Ludo from "./ludo.jsx"
+import Ludo from "./Ludo.jsx"
+import Lottery from "./Lottery.jsx"
+import Ticket from "./Ticket.jsx"
 function App() {
  
-  return (
-   <>
-   <Msg username="Afaa" textColor="olive"/>
-    <Title/>
-    <Like/>
-    <Ludo/>
-    <Counter/>
-    <Tabs/>
-   <Button/>
-   </>
+  return(
+    <Lottery n={3} winningSum={15}/>
   )
 }
-
 export default App
